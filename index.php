@@ -12,9 +12,12 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/form.css">
     <link rel="stylesheet" href="css/sweetalert.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="canonical" href="https://avtovyshki36.ru/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Аренда автовышек в Воронеже — Автовышки до 30 м, доступные цены | Автовышки36">
+    <meta property="og:description" content="Аренда автовышек до 30 метров в Воронеже и области. Быстрый выезд, оператор, удобные условия аренды.">
+    <meta property="og:url" content="https://avtovyshki36.ru/">
+    <meta property="og:image" content="https://avtovyshki36.ru/autovysh-fon.jpg">
     
     <!-- Yandex.Metrika counter -->
 <script type="text/javascript" >
@@ -117,10 +120,10 @@
                             <img src="img/image4.jpg" alt="Проведение ремонтных работ под корнизом трехэтажного здания при помощи автовышки" class="slide">
                         </div>
                         <div class="pagination">
-                            <span class="dot active" onclick="currentSlide(1)"></span>
-                            <span class="dot" onclick="currentSlide(2)"></span>
-                            <span class="dot" onclick="currentSlide(3)"></span>
-                            <span class="dot" onclick="currentSlide(4)"></span>
+                            <button class="dot active" type="button" onclick="currentSlide(1)" aria-label="Перейти к слайду 1"></button>
+                            <button class="dot" type="button" onclick="currentSlide(2)" aria-label="Перейти к слайду 2"></button>
+                            <button class="dot" type="button" onclick="currentSlide(3)" aria-label="Перейти к слайду 3"></button>
+                            <button class="dot" type="button" onclick="currentSlide(4)" aria-label="Перейти к слайду 4"></button>
                         </div>
                     </div>
                     <!-- Lightbox -->
@@ -142,8 +145,8 @@
                     <p>Звоните нам по телефону:<br> <a href="tel:+79066793826">+7 906 679 3826</a></p>
                     <p>Или напишите нам в мессенджерах:</p>
                     <div class="social-icons">
-                        <a href="https://t.me/+79066793826" target="_blank">Telegram</a>
-                        <a href="https://wa.me/79066793826" target="_blank">WhatsApp</a>
+                        <a href="https://t.me/+79066793826" target="_blank" rel="noopener noreferrer">Telegram</a>
+                        <a href="https://wa.me/79066793826" target="_blank" rel="noopener noreferrer">WhatsApp</a>
                     </div>
                 </div>
                 <div class="contact-card">
@@ -167,11 +170,11 @@
                         </tbody>
                         <tbody>
                             <tr>
-                                <td>Расстояние до объекта (км)</td>
+                                <td><label for="qty1">Расстояние до объекта (км)</label></td>
                                 <td><input type="number" id="qty1" value="0" min="0"></td>
                             </tr>
                             <tr>
-                                <td>Время аренды (ч)</td>
+                                <td><label for="qty2">Время аренды (ч)</label></td>
                                 <td><input type="number" id="qty2" value="0" min="0"></td>
                             </tr>
                             <tr>

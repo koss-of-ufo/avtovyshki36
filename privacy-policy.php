@@ -7,6 +7,7 @@
       Политика конфиденциальности - Профессиональные услуги автовышки
     </title>
     <meta name="description" content="Политика конфиденциальности - Профессиональные услуги автовышки. Предлагаем аренду автовышек высотой до 30 метров в Воронеже и области.">
+    <link rel="canonical" href="https://avtovyshki36.ru/privacy-policy.php">
     <link rel="stylesheet" href="css/privacy.css">
     <link rel="stylesheet" href="css/form.css">
     <link rel="stylesheet" href="css/sweetalert.min.css">

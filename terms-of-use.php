@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="canonical" href="https://avtovyshki36.ru/terms-of-use.php">
     <title>Условия использования - Профессиональные услуги автовышки</title>
     <meta name="description" content="Условия использования - Профессиональные услуги автовышки. Предлагаем аренду автовышек высотой до 30 метров в Воронеже и области.">
     <link rel="stylesheet" href="css/privacy.css">
