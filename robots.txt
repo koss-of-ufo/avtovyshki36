@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /index.php
+Disallow: /privacy-policy.php
+Disallow: /terms-of-use.php
+
+Allow: /privacy-policy
+Allow: /terms-of-use
+
+Sitemap: https://avtovyshki36.ru/sitemap.xml
